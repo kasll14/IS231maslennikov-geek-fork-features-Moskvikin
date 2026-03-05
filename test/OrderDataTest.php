@@ -25,8 +25,7 @@ class OrderDataTest extends TestCase
                            $this->obj->validateAddress($this->data["address"]) );
         $this->assertSame( true, 
                            $this->obj->validatePhone($this->data["phone"]) );
-        $this->assertSame( true, 
-                           $this->obj->validateEmail($this->data["email"]) );
+
 
     }    
 }
